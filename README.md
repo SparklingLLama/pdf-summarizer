@@ -42,7 +42,7 @@ A simple and smart PDF summarization tool built with Streamlit and Together.ai. 
 
    Create a `.env` file in the root folder with this line:
 
-       TOGETHER_API_KEY=29e44ae56ad376f876a038f65fb3767f98ee561137a1fc9cefa9af8e448435e6
+       TOGETHER_API_KEY=your_together_api_key_here
 
 4. **Run the app**
 
@@ -58,7 +58,7 @@ A simple and smart PDF summarization tool built with Streamlit and Together.ai. 
 4. Set `app.py` as the main file
 5. Add your API key under "Secrets":
 
-       TOGETHER_API_KEY = 29e44ae56ad376f876a038f65fb3767f98ee561137a1fc9cefa9af8e448435e6
+       TOGETHER_API_KEY = your_together_api_key_here
 
 6. Click **Deploy**
 
@@ -98,4 +98,4 @@ This project is licensed under the MIT License.
 
 ## ✨ Credits
 
-Built with 💙 by Sally
+Built with 💙 by Shaurya
