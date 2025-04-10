@@ -38,7 +38,7 @@ def summarize_text_with_together(text):
     response = requests.post(url, headers=headers, json=payload)
     result = response.json()
 
-
+    print("🔍 API Response:", result)
     # Handle errors gracefully
     if "choices" in result and len(result["choices"]) > 0:
         return result["choices"][0]["message"]["content"].strip()
